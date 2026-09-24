@@ -17,3 +17,9 @@ This repository contains the assignment for OT Network and Modbus Scripting. The
    Open a terminal and run the server script. It will begin listening on `127.0.0.1:5020`.
    ```bash
    python modbus_server.py
+2. **Run the Client:**
+   Open a second terminal window and execute the client script to connect and read the data.
+   ```bash
+   python modbus_client.py
+3. **Expected Client Output:**
+   Data read from PLC: [42, 42, 42, 42, 42]
